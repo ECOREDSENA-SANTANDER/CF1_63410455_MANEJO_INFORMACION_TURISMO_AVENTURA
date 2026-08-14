@@ -3,56 +3,53 @@
   &-1
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 68%
-    left: -10%
-    width: 20%
+    top: 22%
+    left: 5%
+    width: 17%
   &-2
     animation: float1 2.5s ease-in-out infinite alternate
     position: absolute
-    top: 30%
-    right: 10%
-    width: 20%
-
-
+    top: 65%
+    left: -10%
+    width: 18%
+  &-3
+    animation: float1 2.5s ease-in-out infinite alternate
+    position: absolute
+    top: 53%
+    right: 13%
+    width: 17%
 @keyframes float1
   0%
     transform: translateY(20px)
-
   100%
     transform: translateY(0px)
+
 
 .col-lg-7.col-xxl-5.ps-4.ps-sm-5.py-4.py-sm-5.banner-principal__info
   flex: 0 0 auto !important
   width: 58.33333333% !important
 .banner-principal__img 
-  padding-bottom: 0 !important;
+  padding-bottom: 0 !important
 .banner-principal__row .banner-principal__img 
-    width: 33%;
-    
-.banner-principal p, .banner-principal h1, .banner-principal h2, .banner-principal h3, .banner-principal h4, .banner-principal h5, .banner-principal h6
-  color: $color-sistema-texto !important  
-
-.boton *, .boton--sm *,
-.barra-avance__boton--regresar span
-  color: $white !important
-.banner-interno__titulo h1, .banner-interno__titulo h2, 
-.banner-interno__titulo h3, .banner-interno__titulo h4, 
-.banner-interno__titulo h5, .banner-interno__titulo h6
-  color: $color-sistema-texto !important  
+    width: 33%
+  
+ 
 .titulo-principal.color-acento-contenido .titulo-principal__numero span
   color: $white !important
 figcaption 
-    font-weight: normal !important
+  font-weight: normal !important
 
-.banner-interno__titulo__icono i
-    color: $color-acento-botones !important;
+.banner-interno__fondo
+  background-image: url(../assets/curso/temas/bg/banner.png) !important
+  background-size: cover
+  background-repeat: no-repeat
 
 
 /**************************************************************/
 /***CUSTOM STYLES***/
 /**************************************************************/
 .p-full-width
-  padding: 3rem 3.5rem!important;
+  padding: 3rem 3.5rem!important
 .bg-full-width
   background-size: cover
   background-repeat: no-repeat
@@ -63,12 +60,11 @@ figcaption
     background-image: url(../assets/curso/temas/bg/fondo.png)
     background-size: cover
     background-repeat: no-repeat
-    //background-image: url(../assets/curso/bg/3.svg)
 .bg-color
   &-1
     background-color: $color-primario
   &-2 
-    background-color: #E8EDEB 
+    background-color: #E8EDEB !important
   &-3 
     background-color: #E6EAED 
   &-4
@@ -81,8 +77,10 @@ figcaption
     background-color: #B6C1C9
   &-8
     background-color: #D8A999 
-
-    
+  &-9
+    background-color: #C9B496
+  &-10
+    background-color: #A5B7B0  
 .bg-compll
   &-1
     position: relative
@@ -114,18 +112,47 @@ figcaption
     background-color: #1E4D3B
     border-radius: 100px
     width: 100%
-    height: 80%
+    height: 65%
     z-index: 0
 
-
-
-
+.slyder-f
+  &__btn i
+    color: $color-acento-botones
+.linea-tiempo-d
+  &__item--selected
+    .tarjeta
+      background-color: #FEF8E5
+    .linea-tiempo-d__item__number span
+      color: $color-sistema-texto
+  &__item__number
+    background-color: #E8EDEB
+  &__item__content
+    background-color: #E8EDEB
+.acordion
+  &__activo
+    background-color: #E6EAED
+    .acordion__header h3
+      color: $color-sistema-texto
+  &__accion__btn--b
+    background-color: $color-acento-botones
+    border-color: $color-acento-botones
+  &__header h3
+    color: $white
+.tarjeta--boton.bg-color-7:hover
+  background-color: #D8A999
+  cursor: inherit
+.img-infografica 
+  &__item__numero
+    color: $color-sistema-texto !important
 
 
 
 /**************************************************************/
 /*Media Queries*/  
 /**************************************************************/
+@media screen and (min-width: $bp-min-xl)
+  .img-infografica__card
+    width: 450px !important
 
 //// DESKTOP SMALL 1400--------------------------------------
 @media screen and (max-width: $bp-min-xxl)
@@ -138,21 +165,19 @@ figcaption
     margin-bottom: 2em  !important  
   .col-lg-7.col-xxl-5.ps-4.ps-sm-5.py-4.py-sm-5.banner-principal__info
     width: 90% !important
-
-  
- 
   
 //// TABLET MINI 768--------------------------------------
 @media screen and (max-width: $bp-min-md)
   .mb-cus
     margin-bottom: 2em  !important  
-
-  
+  .subt::before
+    height: 80%
+    z-index: 0
 
 //// MOBILE 576--------------------------------------
 @media screen and (max-width: $bp-min-sm)
   .mb-cus
-    margin-bottom: 2em  !important
-
-  
- 
+    margin-bottom: 2em  !important 
+  .subt::before
+    height: 88%
+    z-index: 0

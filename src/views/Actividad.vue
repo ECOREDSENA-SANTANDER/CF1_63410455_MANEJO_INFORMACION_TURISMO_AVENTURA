@@ -19,10 +19,10 @@ export default {
   },
   data: () => ({
     cuestionario: {
-      tema: 'Microcontroladores y sensores',
+      tema: 'Fundamentos e información del turismo de aventura',
       titulo: 'Cuestionario',
       introduccion:
-        '<b> Objetivo:</b> Evaluar la comprensión y el uso adecuado de las herramientas básicas en la ventana <em>Board</em> del <em>software</em> EAGLE.',
+        '<b>Objetivo:</b> validar la apropiación de los conceptos relacionados con el sistema turístico, la oferta turística territorial, la gestión de la información, la caracterización de visitantes, la normatividad aplicable y la seguridad en el turismo de aventura, como soporte para la planificación y operación de actividades turísticas.',
       barajarPreguntas: true,
       titulo_aprobado: '¡BUEN TRABAJO!',
       titulo_reprobado: 'VUELVA A INTENTARLO',
@@ -30,405 +30,647 @@ export default {
         {
           id: 1,
           texto:
-            '¿Cuál es la función principal de la herramienta <em>Layer</em> en la ventana <em>Board</em>?',
+            '¿Cuál es el propósito principal del sistema turístico dentro del desarrollo de un destino?',
           imagen: '@/assets/actividad/imagen1.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: '<em>Layer</em>',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto:
-                'Seleccionar y editar capas que identifican márgenes, pistas y componentes.',
+              texto: 'Organizar la interacción entre los diferentes actores, recursos y servicios que participan en la actividad turística.',
               esCorrecta: true,
             },
             {
+              id: 'b',
+              texto: 'Incrementar el número de visitantes mediante campañas publicitarias permanentes.',
+              esCorrecta: false,
+            },
+            {
               id: 'c',
-              texto: 'Ajustar automáticamente las pistas de cada componente.',
+              texto: 'Administrar exclusivamente los establecimientos de alojamiento y gastronomía.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Modificar el tamaño de los componentes.',
+              texto: 'Regular únicamente las actividades comerciales realizadas por los operadores turísticos.',
               esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
           mensaje_incorrecto:
-            'Lo sentimos, su respuesta no es la correcta. <em>Board</em> del <em>software</em> EAGLE.',
+            'Lo sentimos, su respuesta no es la correcta. Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 2,
           texto:
-            '¿Qué herramienta permite agregar texto en la ventana <em>Board</em>?',
-          imagen: '@/assets/actividad/imagen1.png',
+            'Dentro de la cadena de valor del turismo, ¿cuál es la finalidad principal de la comercialización?',
+          imagen: '@/assets/actividad/imagen2.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: '<em>Layer</em>',
+              texto: 'Diseñar los protocolos de seguridad para las actividades de aventura.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: '<em>Auto</em>',
+              texto: 'Gestionar el mantenimiento de la infraestructura turística.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: '<em>Text</em>',
+              texto: 'Dar a conocer la oferta turística y facilitar su acceso al mercado.',
               esCorrecta: true,
             },
             {
               id: 'd',
-              texto: '<em>Route</em>',
+              texto: 'Elaborar inventarios de recursos naturales y culturales.',
               esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_incorrecto:
+            'Lo sentimos, su respuesta no es la correcta. Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 3,
-          texto: '¿Para qué sirve la herramienta <em>Show</em> en EAGLE?',
-          imagen: '@/assets/actividad/imagen1.png',
+          texto:
+            'Según la metodología para la elaboración del inventario turístico de Colombia, un atractivo turístico corresponde a:',
+          imagen: '@/assets/actividad/imagen3.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Para borrar conexiones.',
+              texto: 'Cualquier recurso natural existente dentro del territorio.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto:
-                'Para cambiar de ventana entre <em>Schematic</em> y <em>Board</em>.',
-              esCorrecta: false,
+              texto: 'Un recurso natural o cultural que ha sido puesto en valor para el uso turístico.',
+              esCorrecta: true,
             },
             {
               id: 'c',
-              texto: 'Para agregar nuevas capas.',
+              texto: 'Toda empresa inscrita en el Registro Nacional de Turismo.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Para resaltar conexiones de pines.',
-              esCorrecta: true,
+              texto: 'Una infraestructura construida para facilitar el acceso al destino.',
+              esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_incorrecto:
+            'Lo sentimos, su respuesta no es la correcta. Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 4,
           texto:
-            '¿Qué botón se utiliza para cambiar entre las ventanas <em>Schematic</em> y <em>Board</em>?',
+            '¿Cuál de los siguientes elementos forma parte de la oferta turística territorial?',
+          imagen: '@/assets/actividad/imagen4.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Los procedimientos internos de contratación del personal.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Las estrategias financieras de las empresas del sector.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Los indicadores macroeconómicos del país.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Los prestadores de servicios, los productos turísticos y la identidad territorial.',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto:
+            'Lo sentimos, su respuesta no es la correcta. Revise nuevamente el contenido del componente formativo.',
+        },
+        {
+          id: 5,
+          texto:
+            '¿Cuál es la principal finalidad de validar la información turística antes de utilizarla en la planificación de una actividad de turismo de aventura?',
+          imagen: '@/assets/actividad/imagen5.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Reducir el número de documentos utilizados durante la operación.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Garantizar que la información sea confiable, pertinente y actualizada.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Evitar la consulta de fuentes oficiales relacionadas con el turismo.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Sustituir la experiencia del personal operativo durante la actividad.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto:
+            'Lo sentimos, su respuesta no es la correcta. Revise nuevamente el contenido del componente formativo.',
+        },
+        {
+          id: 6,
+          texto:
+            '¿Cuál es la principal finalidad de organizar la información turística dentro de una empresa u organización?',
+          imagen: '@/assets/actividad/imagen6.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Incrementar el número de visitantes al destino.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Facilitar la consulta, actualización y utilización de la información para apoyar la gestión turística.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Sustituir los procesos de promoción turística.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Reducir el número de documentos institucionales.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto:
+            'Lo sentimos, su respuesta no es la correcta. Revise nuevamente el contenido del componente formativo.',
+        },
+        {
+          id: 7,
+          texto:
+            '¿Cuál de los siguientes criterios es fundamental para validar la información turística antes de utilizarla?',
+          imagen: '@/assets/actividad/imagen7.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Actualidad, confiabilidad y pertinencia de la información.',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: 'Cantidad de documentos recopilados durante la investigación.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Número de personas que consultan la información.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Tiempo empleado para registrar los datos.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto:
+            'Lo sentimos, su respuesta no es la correcta. Revise nuevamente el contenido del componente formativo.',
+        },
+        {
+          id: 8,
+          texto:
+            'El tratamiento de los datos personales en Colombia se encuentra regulado principalmente por:',
+          imagen: '@/assets/actividad/imagen8.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'La Ley 300 de 1996.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'El Decreto 1074 de 2015.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'La Ley 1581 de 2012.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'La Ley 397 de 1997.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto:
+            'Lo sentimos, su respuesta no es la correcta. Revise nuevamente el contenido del componente formativo.',
+        },
+        {
+          id: 9,
+          texto:
+            '¿Qué información aporta principalmente la caracterización del turista de aventura?',
+          imagen: '@/assets/actividad/imagen9.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'El valor comercial de los atractivos turísticos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'El inventario de infraestructura disponible.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'El estado financiero de los prestadores de servicios.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Las características, motivaciones y necesidades de las personas visitantes.',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto:
+            'Lo sentimos, su respuesta no es la correcta. Revise nuevamente el contenido del componente formativo.',
+        },
+        {
+          id: 10,
+          texto:
+            '¿Cuál es uno de los principales beneficios de conocer las motivaciones del turista de aventura?',
+          imagen: '@/assets/actividad/imagen10.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Diseñar productos turísticos acordes con las expectativas del mercado.',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: 'Incrementar el número de normas aplicables al destino.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Reducir la capacidad de carga de los atractivos turísticos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Sustituir los procesos de gestión documental.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto:
+            'Lo sentimos, su respuesta no es la correcta. Revise nuevamente el contenido del componente formativo.',
+        },
+        {
+          id: 11,
+          texto:
+            '¿Cuál es la finalidad principal del Registro Nacional de Turismo (RNT)?',
           imagen: '@/assets/actividad/imagen1.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: '<em>Text</em>',
+              texto: 'Administrar los recursos naturales destinados al turismo.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: '<em>Layer</em>',
+              texto: 'Registrar los inventarios turísticos de cada municipio.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: '<em>Board</em>',
+              texto: 'Formalizar e identificar a los prestadores de servicios turísticos autorizados para operar en Colombia.',
               esCorrecta: true,
             },
             {
               id: 'd',
-              texto: '<em>Route</em>',
+              texto: 'Certificar las competencias laborales del personal turístico.',
               esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 5,
-          texto: '¿Qué permite hacer la herramienta <em>Route</em>?',
-          imagen: '@/assets/actividad/imagen2.png',
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto:
-                'Enrutar manualmente las pistas que no se ajustaron automáticamente.',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'Resaltar las conexiones de los pines.',
-              esCorrecta: false,
-            },
-            {
-              id: 'c',
-              texto: 'Crear una nueva capa en el diseño.',
-              esCorrecta: false,
-            },
-            {
-              id: 'd',
-              texto:
-                'Cambiar de ventana entre <em>Schematic</em> y <em>Board</em>.',
-              esCorrecta: false,
-            },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 6,
-          texto:
-            '¿Qué función tiene la herramienta <em>Auto</em> en la ventana <em>Board</em>?',
-          imagen: '@/assets/actividad/imagen2.png',
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto: 'Borrar componentes.',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto: 'Ajustar automáticamente las pistas en cada componente.',
-              esCorrecta: true,
-            },
-            {
-              id: 'c',
-              texto: 'Crear nuevas conexiones de pines.',
-              esCorrecta: false,
-            },
-            {
-              id: 'd',
-              texto: 'Seleccionar y editar capas.',
-              esCorrecta: false,
-            },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 7,
-          texto:
-            '¿Cuál es una recomendación al ubicar los componentes en la ventana <em>Board</em>?',
-          imagen: '@/assets/actividad/imagen2.png',
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto: 'Colocar los componentes en un solo bloque.',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto: 'Agrupar los componentes en bloques funcionales.',
-              esCorrecta: true,
-            },
-            {
-              id: 'c',
-              texto: 'Alinear todos los terminales a la derecha.',
-              esCorrecta: false,
-            },
-            {
-              id: 'd',
-              texto: 'Colocar los terminales lo más alejados posible.',
-              esCorrecta: false,
-            },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 8,
-          texto:
-            '¿Cuál de las siguientes capas se utiliza para añadir texto en el diseño?',
-          imagen: '@/assets/actividad/imagen2.png',
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
-              esCorrecta: false,
-            },
-            {
-              id: 'c',
-              texto: 'tStop',
-              esCorrecta: false,
-            },
-            {
-              id: 'd',
-              texto: 'bValues',
-              esCorrecta: false,
-            },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 9,
-          texto:
-            'La herramienta <em>Text</em> en la ventana <em>Board</em> solo permite cambiar el color de las capas.',
-          imagen: '@/assets/actividad/imagen3.png',
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto: 'Falso',
-              esCorrecta: true,
-            },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 10,
-          texto:
-            'La herramienta <em>Layer</em> permite seleccionar y editar capas para definir márgenes, pistas y componentes.',
-          imagen: '@/assets/actividad/imagen3.png',
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'Falso',
-              esCorrecta: false,
-            },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 11,
-          texto:
-            'El botón "<em>BOARD</em>" en EAGLE solo sirve para borrar componentes en el diseño.',
-          imagen: '@/assets/actividad/imagen3.png',
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto: 'Falso',
-              esCorrecta: true,
-            },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_incorrecto:
+            'Lo sentimos, su respuesta no es la correcta. Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 12,
           texto:
-            'La herramienta <em>Show</em> permite resaltar conexiones para facilitar la identificación de redes.',
+            '¿Cuál es la Ley General de Turismo en Colombia?',
+          imagen: '@/assets/actividad/imagen2.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Ley 397 de 1997.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Ley 2068 de 2020.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Ley 1581 de 2012.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Ley 300 de 1996.',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto:
+            'Lo sentimos, su respuesta no es la correcta. Revise nuevamente el contenido del componente formativo.',
+        },
+        {
+          id: 13,
+          texto:
+            '¿Cuál es el propósito de la NTC-ISO 21101:2020 aplicada al turismo de aventura?',
           imagen: '@/assets/actividad/imagen3.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto: 'Regular la clasificación de los establecimientos de alojamiento.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Establecer requisitos para los sistemas de gestión de la seguridad en las organizaciones de turismo de aventura.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Definir la metodología para elaborar inventarios turísticos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Reglamentar el funcionamiento del Registro Nacional de Turismo.',
               esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 13,
-          texto:
-            'La función <em>Auto</em> se utiliza para enrutado automático en la ventana <em>Board</em>.',
-          imagen: '@/assets/actividad/imagen4.png',
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'Falso',
-              esCorrecta: false,
-            },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_incorrecto:
+            'Lo sentimos, su respuesta no es la correcta. Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 14,
           texto:
-            'La herramienta <em>Route</em> en la ventana <em>Board</em> ajusta automáticamente todas las pistas del diseño.',
+            'El Código Mundial de Ética para el Turismo promueve principalmente:',
           imagen: '@/assets/actividad/imagen4.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto: 'La clasificación de los atractivos turísticos.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'La regulación de las tarifas de los servicios turísticos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'La organización de los inventarios turísticos nacionales.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Principios orientados al desarrollo responsable, sostenible y respetuoso de la actividad turística.',
               esCorrecta: true,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_incorrecto:
+            'Lo sentimos, su respuesta no es la correcta. Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 15,
           texto:
-            'Es recomendable organizar los componentes en bloques funcionales como transformación y filtrado en la ventana <em>Board</em>.',
-          imagen: '@/assets/actividad/imagen4.png',
+            '¿Por qué es importante mantener actualizada la información normativa dentro de una organización turística?',
+          imagen: '@/assets/actividad/imagen5.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto: 'Porque facilita el cumplimiento de los requisitos legales y la toma de decisiones durante la operación.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Porque reemplaza la capacitación del personal operativo.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Porque disminuye la necesidad de realizar mantenimiento a los equipos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Porque elimina los riesgos asociados a las actividades de aventura.',
               esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_incorrecto:
+            'Lo sentimos, su respuesta no es la correcta. Revise nuevamente el contenido del componente formativo.',
+        },
+        {
+          id: 16,
+          texto:
+            '¿Cuál es el objetivo principal de la gestión del riesgo en turismo de aventura?',
+          imagen: '@/assets/actividad/imagen6.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Incrementar la duración de las actividades turísticas.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Promover únicamente el uso de equipos especializados.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Identificar, evaluar y controlar los riesgos para proteger a las personas participantes y al entorno.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Sustituir los procedimientos de planificación del destino.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto:
+            'Lo sentimos, su respuesta no es la correcta. Revise nuevamente el contenido del componente formativo.',
+        },
+        {
+          id: 17,
+          texto:
+            '¿Cuál de los siguientes documentos aporta información para verificar el estado de los equipos utilizados en una actividad de turismo de aventura?',
+          imagen: '@/assets/actividad/imagen7.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'El registro de inspección y mantenimiento de equipos.',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: 'El inventario de atractivos turísticos del destino.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'La encuesta de satisfacción de las personas visitantes.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'El portafolio de servicios del operador turístico.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto:
+            'Lo sentimos, su respuesta no es la correcta. Revise nuevamente el contenido del componente formativo.',
+        },
+        {
+          id: 18,
+          texto:
+            'De acuerdo con la NTC-ISO 21101:2020, la información documentada permite:',
+          imagen: '@/assets/actividad/imagen8.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Reemplazar la experiencia del personal operativo.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Eliminar todos los riesgos asociados a la actividad.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Respaldar la planificación, la operación y la mejora continua del sistema de gestión de la seguridad.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Sustituir el cumplimiento de la normatividad turística.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto:
+            'Lo sentimos, su respuesta no es la correcta. Revise nuevamente el contenido del componente formativo.',
+        },
+        {
+          id: 19,
+          texto:
+            '¿Cuál de los siguientes elementos aporta información para la toma de decisiones durante la evaluación de riesgos en turismo de aventura?',
+          imagen: '@/assets/actividad/imagen9.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Las campañas de promoción turística del destino.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'El diseño del logotipo de la empresa.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'El registro de ventas mensuales.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Las condiciones del terreno, el clima y el perfil de las personas participantes.',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto:
+            'Lo sentimos, su respuesta no es la correcta. Revise nuevamente el contenido del componente formativo.',
+        },
+        {
+          id: 20,
+          texto:
+            '¿Cuál es el principal aporte del manejo de la información dentro del turismo de aventura?',
+          imagen: '@/assets/actividad/imagen10.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Sustituir los procedimientos operativos establecidos por la organización.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Apoyar la planificación, la toma de decisiones y la prestación de servicios turísticos seguros y sostenibles.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Incrementar exclusivamente el número de visitantes al destino.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Centralizar únicamente la información financiera de la organización.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto:
+            'Lo sentimos, su respuesta no es la correcta. Revise nuevamente el contenido del componente formativo.',
         },
       ],
-      mensaje_final_aprobado: '¡Excelente! Ha superado la actividad.',
+      mensaje_final_aprobado: 'Ha superado la actividad y evidencia comprensión de los contenidos del componente formativo.',
       mensaje_final_reprobado:
-        'Le recomendamos volver a revisar el componente formativo e intentar nuevamente la actividad didáctica.',
+        'No ha superado la actividad. Le recomendamos volver a revisar el componente formativo e intentar nuevamente la actividad didáctica.',
     },
     parrafo: {
       tema: 'Comprendiendo el diseño de presupuestos y estrategias de ahorro',
