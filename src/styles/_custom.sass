@@ -60,10 +60,62 @@ figcaption
   margin-inline: -3.3rem
 .bg-fondo
   &-1
+    background-image: url(../assets/curso/temas/bg/fondo.png)
+    background-size: cover
+    background-repeat: no-repeat
     //background-image: url(../assets/curso/bg/3.svg)
 .bg-color
   &-1
     background-color: $color-primario
+  &-2 
+    background-color: #E8EDEB 
+  &-3 
+    background-color: #E6EAED 
+  &-4
+    background-color: $color-acento-contenido
+  &-5
+    background-color: #3F1000 
+  &-6
+    background-color: $color-secundario
+  &-7
+    background-color: #B6C1C9
+  &-8
+    background-color: #D8A999 
+
+    
+.bg-compll
+  &-1
+    position: relative
+    &::before
+      content: ''
+      position: absolute
+      top: 0
+      right: -20%
+      width: 20%
+      height: 100%
+      background-color: #E8EDEB 
+
+.w-80x
+  width: 80px
+
+.subt
+  display: flex
+  align-items: center
+  position: relative  
+  width: fit-content  
+  img
+    width: 65px
+    z-index: 1
+  h3 
+    z-index: 1
+  &::before
+    content: ''
+    position: absolute
+    background-color: #1E4D3B
+    border-radius: 100px
+    width: 100%
+    height: 80%
+    z-index: 0
 
 
 
