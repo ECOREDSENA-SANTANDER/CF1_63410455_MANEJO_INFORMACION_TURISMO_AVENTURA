@@ -60,6 +60,10 @@ figcaption
     background-image: url(../assets/curso/temas/bg/fondo.png)
     background-size: cover
     background-repeat: no-repeat
+  &-2
+    background-image: url(../assets/curso/temas/bg/bg-t2.png)
+    background-size: cover
+    background-repeat: no-repeat
 .bg-color
   &-1
     background-color: $color-primario
@@ -118,7 +122,6 @@ figcaption
     width: 100%
     height: 65%
     z-index: 0
-
 .subt-2
   display: flex
   align-items: center
@@ -133,10 +136,15 @@ figcaption
     content: ''
     position: absolute
     background-color: #0F324D 
-    border-radius: 100px
     width: 100%
     height: 65%
+    left: 10px
     z-index: 0
+.subt-3
+  background-color: #0F324D 
+  width: fit-content 
+  padding: 0.5rem 2rem 0.5rem 0.5rem
+
 
 .slyder-f
   &__btn i
@@ -161,12 +169,51 @@ figcaption
     border-color: $color-acento-botones
   &__header h3
     color: $white
+.tarjeta--boton.bg-color-2:hover
+  background-color: #A5B7B0 !important
+  cursor: inherit
+.tarjeta--boton.bg-color-3:hover
+  background-color: #B6C1C9 !important
+  cursor: inherit
 .tarjeta--boton.bg-color-7:hover
   background-color: #D8A999
   cursor: inherit
+.tarjeta--boton.t3
+  background-color: #B6C1C9
+  &:hover
+    background-color: #0F324D
+    cursor: inherit
+    h4, p 
+      color: $white
 .img-infografica 
   &__item__numero
     color: $color-sistema-texto !important
+.tabs-c
+  &__tab
+    background-color: #E8EDEB
+    &--active
+      background-color: $white
+.linea-tiempo-c__header__btn--left, .linea-tiempo-c__header__btn--right
+  background-color: $color-acento-botones
+  border-color: $color-acento-botones     
+.tabs-a
+  &__tab
+    background-color: #FEF8E5
+    &__text
+      color: $color-sistema-texto
+.tarjeta-audio.color-acento-botones
+  .tarjeta-audio__texto
+    color: $color-sistema-texto
+    font-style: inherit !important
+.tarjeta-numerada
+  &.color-acento-botones .tarjeta-numerada__numero .h2
+    color: $color-sistema-texto
+  &.b1
+    border-color: #1E4D3B !important
+    border: solid 3px
+.tarjeta-numerada.color-t4
+  .tarjeta-numerada__numero
+    background-color: #C9B496
 
 
 
@@ -176,6 +223,9 @@ figcaption
 @media screen and (min-width: $bp-min-xl)
   .img-infografica__card
     width: 450px !important
+  .col-lg-d5
+    flex: 0 0 auto !important
+    width: 20% !important
 
 //// DESKTOP SMALL 1400--------------------------------------
 @media screen and (max-width: $bp-min-xxl)
@@ -204,3 +254,8 @@ figcaption
   .subt::before
     height: 88%
     z-index: 0
+  .subt-2::before
+    height: 88%
+    z-index: 0
+    width: 90%
+    left: 20px
