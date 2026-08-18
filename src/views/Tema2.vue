@@ -11,7 +11,7 @@
       .col-lg-7(data-aos='fade-right')
         p El desarrollo del turismo de aventura depende, en gran medida, de las condiciones del territorio donde se lleva a cabo la actividad. La existencia de paisajes naturales, ecosistemas estratégicos o escenarios propicios para la práctica de actividades de aventura constituye el punto de partida para la configuración de un destino turístico. Sin embargo, la competitividad del territorio se consolida cuando estos recursos se articulan con servicios, infraestructura, procesos de planificación, actores locales y estrategias de gestión que permiten transformar su potencial en experiencias seguras, organizadas y sostenibles.
         .bg-color-2.p-4
-          p.mb-0 En Colombia, la diversidad geográfica y biológica ha favorecido la consolidación de múltiples destinos especializados en turismo de aventura. Las regiones de montaña, los sistemas cavernarios, los cañones, los ríos, los bosques, los páramos, los desiertos y las zonas costeras ofrecen condiciones para el desarrollo de actividades como senderismo, rafting, escalada, torrentismo, parapente y ciclomontañismo.
+          p.mb-0 En Colombia, la diversidad geográfica y biológica ha favorecido la consolidación de múltiples destinos especializados en turismo de aventura. Las regiones de montaña, los sistemas cavernarios, los cañones, los ríos, los bosques, los páramos, los desiertos y las zonas costeras ofrecen condiciones para el desarrollo de actividades como senderismo, #[em rafting], escalada, torrentismo, parapente y ciclomontañismo.
       .col-lg-5.d-none.d-lg-block(data-aos='fade-left')
         img(src='@/assets/curso/temas/t2/1.png', alt='')
     
@@ -103,7 +103,7 @@
             p.mb-0 Esta diferenciación es especialmente relevante en el turismo de aventura, donde numerosos territorios poseen recursos naturales con alto potencial para el desarrollo de actividades especializadas, pero no todos reúnen las condiciones necesarias para consolidarse como atractivos turísticos.
         p La existencia de un cañón, una cascada o una pared rocosa no garantiza, por sí sola, que sea posible desarrollar una actividad de aventura. También deben evaluarse aspectos relacionados con la accesibilidad, la seguridad, la capacidad de carga, la normatividad ambiental, la infraestructura disponible y la capacidad operativa de los prestadores de servicios.
         .cajon.color-primario.bg-color-2.p-4
-          p.mb-0 La valoración de los recursos y atractivos se realiza mediante el inventario turístico. Este instrumento técnico permite registrar de manera organizada la información relacionada con los bienes naturales y culturales presentes en un territorio.
+          p.mb-0 La valoración de los recursos y atractivos se realiza mediante el #[b inventario turístico]. Este instrumento técnico permite registrar de manera organizada la información relacionada con los bienes naturales y culturales presentes en un territorio.
       .col-lg-5.d-none.d-lg-block(data-aos='fade-left')
         img(src='@/assets/curso/temas/t2/51.png', alt='')
     

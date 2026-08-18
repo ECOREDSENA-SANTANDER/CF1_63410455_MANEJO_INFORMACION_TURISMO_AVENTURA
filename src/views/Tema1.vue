@@ -117,7 +117,7 @@
       .col-lg-5.d-none.d-lg-block(data-aos='fade-right')
         img(src='@/assets/curso/temas/t1/14.png', alt='')
       .col-lg-7(data-aos='fade-left')
-        p.mb-4 El turismo es una actividad económica que requiere la participación coordinada de diferentes actores, organizaciones y procesos. Su interacción permite transformar los recursos de un territorio en experiencias capaces de generar valor para las personas visitantes y beneficios para las comunidades receptoras. Esta articulación se conoce como cadena de valor del turismo y comprende las actividades que intervienen desde la planificación del viaje hasta la evaluación de la experiencia una vez finalizada.
+        p.mb-4 El turismo es una actividad económica que requiere la participación coordinada de diferentes actores, organizaciones y procesos. Su interacción permite transformar los recursos de un territorio en experiencias capaces de generar valor para las personas visitantes y beneficios para las comunidades receptoras. Esta articulación se conoce como #[b cadena de valor del turismo] y comprende las actividades que intervienen desde la planificación del viaje hasta la evaluación de la experiencia una vez finalizada.
         .cajon.color-primario.bg-color-2.p-4
           p.mb-0 El concepto de cadena de valor fue desarrollado inicialmente por Michael Porter (1985) como una herramienta para analizar la manera en que las organizaciones generan valor mediante la integración de sus procesos. En el sector turístico, esta perspectiva adquiere una dimensión territorial, porque la prestación del servicio depende de la interacción entre entidades públicas, empresas privadas, organizaciones comunitarias y visitantes.
 
@@ -299,14 +299,14 @@
             .col-5.col-md-5.col-lg-4
               img(src='@/assets/curso/temas/t1/32.svg', alt='')
           h4.text-center Actividades terrestres
-          p.mb-0 Se desarrollan sobre en entornos naturales como montañas, senderos, paredes rocosas o cavernas. Entre ellas se encuentran el senderismo, el montañismo, la escalada, la espeleología, el ciclomontañismo y el dosel aéreo (canopy).
+          p.mb-0 Se desarrollan sobre en entornos naturales como montañas, senderos, paredes rocosas o cavernas. Entre ellas se encuentran el senderismo, el montañismo, la escalada, la espeleología, el ciclomontañismo y el dosel aéreo (#[em canopy]).
       .col-sm-6.col-lg-4.mb-4.mb-lg-0
         .tarjeta--boton.bg-color-7.h-100.p-4
           .row.justify-content-center.mb-3
             .col-5.col-md-5.col-lg-4
               img(src='@/assets/curso/temas/t1/33.svg', alt='')
           h4.text-center Actividades acuáticas
-          p.mb-0 Se realizan en ríos, lagos, mares u otros cuerpos de agua naturales. Incluyen actividades como rafting, kayak, hidrospeed, buceo, snorkel y paddle surf.
+          p.mb-0 Se realizan en ríos, lagos, mares u otros cuerpos de agua naturales. Incluyen actividades como #[em rafting], #[em kayak], #[em hidrospeed], buceo, #[em snorkel] y #[em paddle surf].
       .col-sm-6.col-lg-4.mb-4.mb-sm-0
         .tarjeta--boton.bg-color-7.h-100.p-4
           .row.justify-content-center.mb-3

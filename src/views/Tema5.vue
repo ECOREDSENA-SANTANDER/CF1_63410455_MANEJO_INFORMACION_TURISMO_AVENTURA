@@ -254,7 +254,7 @@
     .row.justify-content-center.mb-4
       .col-lg-5 
         img.mb-3.w-80x.d-none.d-lg-block(src='@/assets/curso/temas/t5/25.svg', alt='')
-        p.mb-0 La gestión del riesgo corresponde al proceso mediante el cual se identifican, analizan, evalúan, controlan y monitorean los factores que pueden afectar el desarrollo seguro de una actividad. En turismo de aventura, este proceso comienza antes de la llegada de las personas visitantes. Requiere reconocer el territorio, analizar las condiciones ambientales, verificar los recursos disponibles y preparar al personal responsable de la operación.
+        p.mb-0 La #[b gestión del riesgo] corresponde al proceso mediante el cual se identifican, analizan, evalúan, controlan y monitorean los factores que pueden afectar el desarrollo seguro de una actividad. En turismo de aventura, este proceso comienza antes de la llegada de las personas visitantes. Requiere reconocer el territorio, analizar las condiciones ambientales, verificar los recursos disponibles y preparar al personal responsable de la operación.
       .col-lg-3.d-none.d-lg-block
         img(src='@/assets/curso/temas/t5/26.svg', alt='')
       .col-lg-4.mb-4.mb-lg-0
