@@ -161,7 +161,7 @@
         .tarjeta.bg-white.p-4
           TarjetaAudio.color-acento-botones(
           texto="<b>Pódcast:</b> Información confiable, aventura segura "
-          :audio="require_src('@/assets/actividad/audio/success.mp3')")
+          :audio="require_src('@/assets/curso/temas/t3/CF1-63410455-podcast.mp3')")
           .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
     
     p La búsqueda y la validación constituyen la base de las etapas posteriores de la gestión de la información. Una vez recopilados y validados los datos, deben organizarse sistemáticamente para facilitar su consulta, actualización y aprovechamiento.

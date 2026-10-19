@@ -106,8 +106,8 @@
     .mb-5
       figure
         .video
-          iframe(width="560" height="315" src="https://www.youtube.com/embed/f3WSkP2SUp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-        figcaption Video. El sistema turístico
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/1HtNEdOcDUY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        figcaption Video. El sistema turístico 
     
     .subt.mb-4(data-aos='fade-right')
       img(src='@/assets/curso/temas/t1/subt.svg', alt='')

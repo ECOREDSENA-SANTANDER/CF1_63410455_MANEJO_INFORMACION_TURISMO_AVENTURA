@@ -4,9 +4,9 @@
     .container.tarjeta.tarjeta--blanca.p-4.p-md-5
       // Para cuestionario usar: <ActividadController :cuestionario="cuestionario"/>
       // Para parrafo usar: <ActividadController :parrafo="parrafo"/>
-      #Actividad                
+      #Actividad
       <ActividadController :cuestionario="cuestionario"/>
-  
+
   </template>
 
 <script>
@@ -55,9 +55,8 @@ export default {
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto:
-            'Lo sentimos, su respuesta no es la correcta. Revise nuevamente el contenido del componente formativo.',
+          mensaje_correcto: 'Se evidencia comprensión de los conceptos fundamentales abordados en el componente formativo.',
+          mensaje_incorrecto: 'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 2,
@@ -87,9 +86,8 @@ export default {
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto:
-            'Lo sentimos, su respuesta no es la correcta. Revise nuevamente el contenido del componente formativo.',
+          mensaje_correcto: 'Se evidencia comprensión de los conceptos fundamentales abordados en el componente formativo.',
+          mensaje_incorrecto: 'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 3,
@@ -119,9 +117,8 @@ export default {
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto:
-            'Lo sentimos, su respuesta no es la correcta. Revise nuevamente el contenido del componente formativo.',
+          mensaje_correcto: 'Se evidencia comprensión de los conceptos fundamentales abordados en el componente formativo.',
+          mensaje_incorrecto: 'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 4,
@@ -151,9 +148,8 @@ export default {
               esCorrecta: true,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto:
-            'Lo sentimos, su respuesta no es la correcta. Revise nuevamente el contenido del componente formativo.',
+          mensaje_correcto: 'Se evidencia comprensión de los conceptos fundamentales abordados en el componente formativo.',
+          mensaje_incorrecto: 'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 5,
@@ -183,9 +179,8 @@ export default {
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto:
-            'Lo sentimos, su respuesta no es la correcta. Revise nuevamente el contenido del componente formativo.',
+          mensaje_correcto: 'Se evidencia comprensión de los conceptos fundamentales abordados en el componente formativo.',
+          mensaje_incorrecto: 'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 6,
@@ -215,9 +210,8 @@ export default {
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto:
-            'Lo sentimos, su respuesta no es la correcta. Revise nuevamente el contenido del componente formativo.',
+          mensaje_correcto: 'Se evidencia comprensión de los conceptos fundamentales abordados en el componente formativo.',
+          mensaje_incorrecto: 'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 7,
@@ -247,9 +241,8 @@ export default {
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto:
-            'Lo sentimos, su respuesta no es la correcta. Revise nuevamente el contenido del componente formativo.',
+          mensaje_correcto: 'Se evidencia comprensión de los conceptos fundamentales abordados en el componente formativo.',
+          mensaje_incorrecto: 'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 8,
@@ -279,9 +272,8 @@ export default {
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto:
-            'Lo sentimos, su respuesta no es la correcta. Revise nuevamente el contenido del componente formativo.',
+          mensaje_correcto: 'Se evidencia comprensión de los conceptos fundamentales abordados en el componente formativo.',
+          mensaje_incorrecto: 'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 9,
@@ -311,9 +303,8 @@ export default {
               esCorrecta: true,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto:
-            'Lo sentimos, su respuesta no es la correcta. Revise nuevamente el contenido del componente formativo.',
+          mensaje_correcto: 'Se evidencia comprensión de los conceptos fundamentales abordados en el componente formativo.',
+          mensaje_incorrecto: 'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 10,
@@ -343,9 +334,8 @@ export default {
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto:
-            'Lo sentimos, su respuesta no es la correcta. Revise nuevamente el contenido del componente formativo.',
+          mensaje_correcto: 'Se evidencia comprensión de los conceptos fundamentales abordados en el componente formativo.',
+          mensaje_incorrecto: 'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 11,
@@ -375,9 +365,8 @@ export default {
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto:
-            'Lo sentimos, su respuesta no es la correcta. Revise nuevamente el contenido del componente formativo.',
+          mensaje_correcto: 'Se evidencia comprensión de los conceptos fundamentales abordados en el componente formativo.',
+          mensaje_incorrecto: 'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 12,
@@ -407,9 +396,8 @@ export default {
               esCorrecta: true,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto:
-            'Lo sentimos, su respuesta no es la correcta. Revise nuevamente el contenido del componente formativo.',
+          mensaje_correcto: 'Se evidencia comprensión de los conceptos fundamentales abordados en el componente formativo.',
+          mensaje_incorrecto: 'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 13,
@@ -439,9 +427,8 @@ export default {
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto:
-            'Lo sentimos, su respuesta no es la correcta. Revise nuevamente el contenido del componente formativo.',
+          mensaje_correcto: 'Se evidencia comprensión de los conceptos fundamentales abordados en el componente formativo.',
+          mensaje_incorrecto: 'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 14,
@@ -471,9 +458,8 @@ export default {
               esCorrecta: true,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto:
-            'Lo sentimos, su respuesta no es la correcta. Revise nuevamente el contenido del componente formativo.',
+          mensaje_correcto: 'Se evidencia comprensión de los conceptos fundamentales abordados en el componente formativo.',
+          mensaje_incorrecto: 'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 15,
@@ -503,9 +489,8 @@ export default {
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto:
-            'Lo sentimos, su respuesta no es la correcta. Revise nuevamente el contenido del componente formativo.',
+          mensaje_correcto: 'Se evidencia comprensión de los conceptos fundamentales abordados en el componente formativo.',
+          mensaje_incorrecto: 'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 16,
@@ -535,9 +520,8 @@ export default {
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto:
-            'Lo sentimos, su respuesta no es la correcta. Revise nuevamente el contenido del componente formativo.',
+          mensaje_correcto: 'Se evidencia comprensión de los conceptos fundamentales abordados en el componente formativo.',
+          mensaje_incorrecto: 'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 17,
@@ -567,9 +551,8 @@ export default {
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto:
-            'Lo sentimos, su respuesta no es la correcta. Revise nuevamente el contenido del componente formativo.',
+          mensaje_correcto: 'Se evidencia comprensión de los conceptos fundamentales abordados en el componente formativo.',
+          mensaje_incorrecto: 'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 18,
@@ -599,9 +582,8 @@ export default {
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto:
-            'Lo sentimos, su respuesta no es la correcta. Revise nuevamente el contenido del componente formativo.',
+          mensaje_correcto: 'Se evidencia comprensión de los conceptos fundamentales abordados en el componente formativo.',
+          mensaje_incorrecto: 'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 19,
@@ -631,9 +613,8 @@ export default {
               esCorrecta: true,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto:
-            'Lo sentimos, su respuesta no es la correcta. Revise nuevamente el contenido del componente formativo.',
+          mensaje_correcto: 'Se evidencia comprensión de los conceptos fundamentales abordados en el componente formativo.',
+          mensaje_incorrecto: 'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 20,
@@ -663,86 +644,13 @@ export default {
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto:
-            'Lo sentimos, su respuesta no es la correcta. Revise nuevamente el contenido del componente formativo.',
+          mensaje_correcto: 'Se evidencia comprensión de los conceptos fundamentales abordados en el componente formativo.',
+          mensaje_incorrecto: 'Revise nuevamente el contenido del componente formativo.',
         },
       ],
       mensaje_final_aprobado: 'Ha superado la actividad y evidencia comprensión de los contenidos del componente formativo.',
       mensaje_final_reprobado:
         'No ha superado la actividad. Le recomendamos volver a revisar el componente formativo e intentar nuevamente la actividad didáctica.',
-    },
-    parrafo: {
-      tema: 'Comprendiendo el diseño de presupuestos y estrategias de ahorro',
-      titulo: 'Completar frases',
-      introduccion:
-        '<b> Objetivo:</b> identificar conceptos clave relacionados con el presupuesto personal, la cultura del ahorro y la planificación financiera.',
-      instruccion:
-        'Complete correctamente los enunciados con la palabra que falta según los contenidos estudiados en el componente formativo.',
-      imagen: '@/assets/actividad/imagen1.png',
-      barajarPreguntas: true,
-      textos: [
-        {
-          id: 1,
-          texto:
-            'El [respuesta] personal es una herramienta que permite proyectar ingresos y egresos para mantener la estabilidad económica.',
-          respuesta: 'presupuesto',
-        },
-        {
-          id: 2,
-          texto:
-            'La constancia en el cumplimiento del presupuesto refleja un alto nivel de [respuesta] financiera.',
-          respuesta: 'disciplina',
-        },
-        {
-          id: 3,
-          texto:
-            'Ahorrar no es lo que sobra, sino lo que se [respuesta] guardar antes de gastar.',
-          respuesta: 'planifica',
-        },
-        {
-          id: 4,
-          texto:
-            'Un gasto innecesario que puede eliminarse sin afectar la calidad de vida básica se denomina gasto [respuesta].',
-          respuesta: 'discrecional',
-        },
-        {
-          id: 5,
-          texto:
-            'La cultura del ahorro promueve el uso responsable de los [respuesta] disponibles.',
-          respuesta: 'recursos',
-        },
-        {
-          id: 6,
-          texto:
-            'El estado de [respuesta] personales permite analizar la relación entre ingresos y egresos en un periodo determinado.',
-          respuesta: 'resultados',
-        },
-        {
-          id: 7,
-          texto:
-            'Cuando los ingresos son mayores que los egresos se generan una [respuesta] que puede destinarse al ahorro.',
-          respuesta: 'utilidad',
-        },
-        {
-          id: 8,
-          texto:
-            'Uno de los beneficios de ejecutar un presupuesto es la reducción del [respuesta] financiero.',
-          respuesta: 'estrés',
-        },
-        {
-          id: 9,
-          texto:
-            'Evitar gastos impulsivos y mantener límites presupuestales refleja [respuesta] financiera.',
-          respuesta: 'disciplina',
-        },
-        {
-          id: 10,
-          texto:
-            'Contar con un fondo de [respuesta] permite enfrentar gastos inesperados sin afectar el presupuesto.',
-          respuesta: 'emergencia',
-        },
-      ],
     },
   }),
 }

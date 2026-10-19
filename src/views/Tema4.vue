@@ -33,7 +33,7 @@
 
     .subt.mb-4(data-aos='fade-right')
       img(src='@/assets/curso/temas/t1/subt.svg', alt='')
-      h3.mb-0.ms-3.me-5.text-white Organización y registro de la información
+      h3.mb-0.ms-3.me-5.text-white Visitante, turista y excursionista
 
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-8
@@ -174,31 +174,31 @@
       h3.mb-0.ms-3.me-5.text-white Variables para caracterizar al turista de aventura
     
     .row.justify-content-center.mb-4
-      .col-md-6.col-xl.mb-4.mb-xl-0
+      .col-md-6.col-lg-d52.mb-3.mb-xxl-0
         .tarjeta-numerada.color-primario.b1.ps-5.p-4.h-100
           .tarjeta-numerada__numero
             .h2 1
           h5 Demográfica
           p.mb-0 Permite recopilar información relacionada con la edad, la nacionalidad, el nivel educativo y la composición del grupo de viaje.
-      .col-md-6.col-xl.mb-4.mb-xl-0
+      .col-md-6.col-lg-d52.mb-3.mb-xxl-0
         .tarjeta-numerada.color-secundario.b1.ps-5.p-4.h-100
           .tarjeta-numerada__numero
             .h2 2
-          h5 Ruta integral de atención en salud
+          h5 Geográfica
           p.mb-0 Identifica el lugar de origen de las personas visitantes y los principales mercados emisores.
-      .col-md-6.col-xl.mb-4.mb-xl-0
+      .col-md-6.col-lg-d52.mb-3.mb-xxl-0
         .tarjeta-numerada.color-acento-contenido.b1.ps-5.p-4.h-100
           .tarjeta-numerada__numero
             .h2 3
           h5 Conductual
           p.mb-0 Reconoce la frecuencia de viaje, las actividades preferidas y el comportamiento de consumo.
-      .col-md-6.col-xl.mb-4.mb-xl-0
+      .col-md-6.col-lg-d52.mb-3.mb-xxl-0
         .tarjeta-numerada.color-acento-botones.b1.ps-5.p-4.h-100
           .tarjeta-numerada__numero
             .h2 4
           h5 Motivacional 
           p.mb-0 Permite conocer los intereses, las expectativas y las razones para participar en actividades de aventura.
-      .col-md-6.col-xl.mb-4.mb-xl-0
+      .col-md-6.col-lg-d52.mb-3.mb-xxl-0
         .tarjeta-numerada.color-t4.b1.ps-5.p-4.h-100
           .tarjeta-numerada__numero
             .h2 5

@@ -208,7 +208,7 @@
           .col-5.col-md-6.col-lg-5
             img(src='@/assets/curso/temas/t5/19.svg' alt='')
         h4.text-center.text-white Evaluación de riesgos
-        p.text-white.mb-0 Corresponde al territorio donde se encuentran los recursos, atractivos, servicios e infraestructura y donde se desarrollan las actividades turísticas. 
+        p.text-white.mb-0 Documenta el análisis de la probabilidad de ocurrencia y de las posibles consecuencias de los riesgos identificados.
       .tarjeta.bg-color-4.p-4
         .row.justify-content-center.mb-3
           .col-5.col-md-6.col-lg-5
@@ -224,9 +224,15 @@
       .tarjeta.bg-color-4.p-4
         .row.justify-content-center.mb-3
           .col-5.col-md-6.col-lg-5
-            img(src='@/assets/curso/temas/t5/21.svg' alt='')
+            img(src='@/assets/curso/temas/t5/22.svg' alt='')
         h4.text-center.text-white Registros de mantenimiento
         p.text-white.mb-0 Permite verificar las inspecciones, intervenciones y condiciones de los equipos utilizados.
+      .tarjeta.bg-color-4.p-4
+        .row.justify-content-center.mb-3
+          .col-5.col-md-6.col-lg-5
+            img(src='@/assets/curso/temas/t5/47.svg' alt='')
+        h4.text-center.text-white Reportes de incidentes
+        p.text-white.mb-0 Documenta los incidentes ocurridos y aporta información para su análisis y el mejoramiento continuo. 
 
     p La documentación no debe considerarse un trámite aislado. Su utilidad radica en aportar información objetiva para planificar, ejecutar, hacer seguimiento y mejorar las actividades de turismo de aventura.
 
@@ -355,7 +361,7 @@
               .col-6.col-md-6.col-lg-7
                 img(src='@/assets/curso/temas/t5/36.svg' alt='')
             h5.text-center Inventario de equipos
-            p.mb-0 Busca explorar ecosistemas, paisajes naturales y escenarios alejados de los entornos cotidianos.
+            p.mb-0 Permite identificar la cantidad, las características y la disponibilidad de los elementos utilizados. 
           .tarjeta.bg-white.p-3
             .row.justify-content-center.mb-3
               .col-6.col-md-6.col-lg-7
@@ -372,7 +378,7 @@
             .row.justify-content-center.mb-3
               .col-6.col-md-6.col-lg-7
                 img(src='@/assets/curso/temas/t5/39.svg' alt='')
-            h5.text-center BVida útil
+            h5.text-center Vida útil
             p.mb-0 Facilita el seguimiento del tiempo de utilización y de los criterios establecidos para reemplazar el equipo.        
           .tarjeta.bg-white.p-3
             .row.justify-content-center.mb-3
@@ -394,7 +400,7 @@
             .col-3.col-md-4.col-lg-4
               img(src='@/assets/curso/temas/t5/42.svg', alt='')
           h4 Identificar
-          p.mb-0 Permite reconocer a las personas naturales o jurídicas inscritas como prestadoras de servicios turísticos.
+          p.mb-0 Registrar los equipos disponibles y sus características principales.
       .col-sm-6.col-lg.mb-3.mb-lg-0
         .tarjeta--boton.bg-color-2.p-4.h-100
           .row.mb-3
