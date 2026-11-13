@@ -174,7 +174,7 @@
 
     .subt.mb-4(data-aos='fade-right')
       img(src='@/assets/curso/temas/t1/subt.svg', alt='')
-      h3.mb-0.ms-3.me-5.text-white Legislación turística colombiana
+      h3.mb-0.ms-3.me-5.text-white Sistema de gestión de la seguridad
 
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-5.d-none.d-lg-block(data-aos='fade-right')
